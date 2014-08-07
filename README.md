@@ -16,7 +16,7 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
 
  Run:
  ```
- wget https://files/ubuntu-1404_3.13-c720p-modules.sh 
+ wget https://raw.githubusercontent.com/visionect/c720p/master/files/ubuntu-1404_3.13-c720p-modules.sh 
  sudo chmod +x ubuntu-1404_3.13-c720p-modules.sh 
  sudo ./ubuntu-1404_3.13-c720p-modules.sh 
  ```
@@ -25,7 +25,7 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  * The rest of hardware
  There is a bunch of things that won't work out of the box. Thanks to [Simon Lister](https://plus.google.com/103687638178763248215/posts/U7qa2QysR14) we have a couple of fixes ready. First - to fix the suspend feature:
  ```
- wget https://files/05_sound
+ wget https://raw.githubusercontent.com/visionect/c720p/master/files/05_sound
  sudo cp 05_sound /etc/pm/sleep.d/
  sudo chmod +x /etc/pm/sleep.d/05_sound
  ```
