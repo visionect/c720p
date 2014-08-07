@@ -1,7 +1,7 @@
 Acer c720p + Ubuntu 14.04 guide
 ===============================
 
-*DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're good developers (see www.visionect.com for a bunch of electronic paper solutions), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. Also take note that this guide has been built using the STFW method and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop).*
+*DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're [good developers](http://www.visionect.com), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. Also take note that this guide has been built using the STFW method and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop).*
 
 1. First step: 
 --------------
@@ -75,3 +75,13 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  ```
  echo $(dpkg -l "*$(uname -r)*" | grep image-3 | awk '{print $2}') hold | dpkg --set-selections
  ```
+
+3. Further reading
+------------------
+
+ * Awesome Arch linux how to: https://wiki.archlinux.org/index.php/Acer_C720_Chromebook
+ * Simon Lister's G+ page: https://plus.google.com/103687638178763248215/posts/U7qa2QysR14
+ * Motley Slate's G+ page: https://plus.google.com/114358706658341629084/posts/Q9B4DiqWZ5E
+ * Replacing the BIOS with a custom variant to remove "Danger" bootup screens: https://plus.google.com/communities/112479827373921524726
+ * Nice 13.10 guide with hacks for various hardware: http://www.reddit.com/r/chrubuntu/comments/1rsxkd/list_of_fixes_for_xubuntu_1310_on_the_acer_c720/
+
