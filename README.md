@@ -1,7 +1,7 @@
 Acer c720p + Ubuntu 14.04 guide
 ===============================
 
-This guide has been built using the STFW method as we've been getting our Acer C720P fully running under Ubuntu 14.04. Following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop).
+*DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're good developers (see www.visionect.com for a bunch of electronic paper solutions), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. Also take note that this guide has been built using the STFW method and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop).*
 
 1. First step: 
 --------------
