@@ -53,8 +53,14 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  ```
  sudo gedit /etc/default/grub
  ```
- Edit the line that says: ``GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"``
- So that it reads: ``GRUB_CMDLINE_LINUX_DEFAULT="quiet splash tpm_tis.force=1"``
+ Edit the line that says: 
+ ```
+ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+ ```
+ So that it reads: 
+ ```
+ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash tpm_tis.force=1"
+ ```
  Save the file and exit gedit. Then update grub by typing the following two lines:
  ```
  sudo update-grub
