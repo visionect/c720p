@@ -69,3 +69,9 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  sudo update-grub
  sudo update-grub2
  ```
+ * Preventing future updates to Kernel
+
+ A bunch of stuff we just did are plain ol' hacks. They are tied to the specific version of Kernel that we're currently using. We'd like to prevent auto-updates messing everything up, so we can use [the guide on askubuntu](http://askubuntu.com/questions/178324/how-to-skip-kernel-update) and lock the version by typing:
+ ```
+ echo $(dpkg -l "*$(uname -r)*" | grep image | awk '{print $2}') hold | dpkg --set-selections
+ ```
