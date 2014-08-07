@@ -12,6 +12,7 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
 2. Hardware support:
 ---------------------
  * Touch pad and touch panel
+ 
  While Arch users have it good with the scripts fully prepped, we had to do some digging across the net to find a workable solution for the touch pad and touch panel under the 3.13 kernel, which is default in 14.04 LTS. [Motley slate's google+ page](https://plus.google.com/114358706658341629084/posts/Q9B4DiqWZ5E) provides the best starting point - there is a script which sadly breaks under 3.13 kernel. We've coupled that source with the patches we found on Arch page and finally implementing the patches from [Fedora](https://bugzilla.redhat.com/show_bug.cgi?id=1045821#c14).
 
  Run:
@@ -23,6 +24,7 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  Wait and reboot.
 
  * The rest of hardware
+
  There is a bunch of things that won't work out of the box. Thanks to [Simon Lister](https://plus.google.com/103687638178763248215/posts/U7qa2QysR14) we have a couple of fixes ready. First - to fix the suspend feature:
  ```
  wget https://raw.githubusercontent.com/visionect/c720p/master/files/05_sound
@@ -30,7 +32,8 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
  sudo chmod +x /etc/pm/sleep.d/05_sound
  ```
 
- Direct copy-paste from [Simon Lister's page](https://plus.google.com/103687638178763248215/posts/U7qa2QysR14)
+ The rest is a direct copy-paste from [Simon Lister's page](https://plus.google.com/103687638178763248215/posts/U7qa2QysR14)
+ 
  Now edit the rc.local file by typing:
  ```
  sudo gedit /etc/rc.local
