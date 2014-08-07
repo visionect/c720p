@@ -1,7 +1,10 @@
 Acer c720p + Ubuntu 14.04 guide
 ===============================
 
-*DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're [good developers](http://www.visionect.com), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. This guide has been built using the STFW method ([risky](http://en.wiktionary.org/wiki/STFW)) and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop).*
+This guide has been created for owners of Acer C720P Chromebook that would like to replace ChromeOS with native Ubuntu 14.04. It should help you with installation and enabling full hardware support for touch pad and touch panel. 
+
+*DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're [good developers](http://www.visionect.com), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. This guide has been built using the STFW method ([risky](http://en.wiktionary.org/wiki/STFW)) and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop). You need to have some computing experience - if you don't, find someone who does.*
+
 
 1. First step: 
 --------------
