@@ -1,4 +1,4 @@
-# FOR ACER C720P WITH TOUCHPANEL!
+# FOR ACER C720 WITOUT TOUCH PANEL
 # Create a temp directory for our work
 tempbuild=`mktemp -d`
 cd $tempbuild
