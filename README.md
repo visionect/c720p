@@ -5,6 +5,10 @@ This guide has been created for owners of Acer C720(P) Chromebook that would lik
 
 *DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're [good developers](http://www.visionect.com), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. This guide has been built using the STFW method ([risky](http://en.wiktionary.org/wiki/STFW)) and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop). You need to have some computing experience - if you don't, find someone who does.*
 
+Before following this guide:
+----------------------------
+
+This guide now makes little sense to follow as Linux kernel above 3.17 supports all hardware features of C720P out of the box (verified). See first comments on RC1 release: https://plus.google.com/+JesseFleming1990/posts/D3uVNLUY7Ct to gain a bit of background. 
 
 1. First step: 
 --------------
