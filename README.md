@@ -4,7 +4,7 @@ Acer c720p + Ubuntu 14.04 guide
 Before following this guide:
 ----------------------------
 
-* This guide now makes little sense to follow as Linux kernel above 3.17 supports all hardware features of C720P out of the box (verified). See first comments on RC1 release: https://plus.google.com/+JesseFleming1990/posts/D3uVNLUY7Ct to gain a bit of background. * 
+**This guide now makes little sense to follow as Linux kernel above 3.17 supports all hardware features of C720P out of the box (verified). See first comments on RC1 release: https://plus.google.com/+JesseFleming1990/posts/D3uVNLUY7Ct to gain a bit of background.** 
 
 This guide has been created for owners of Acer C720(P) Chromebook that would like to replace ChromeOS with native Ubuntu 14.04. It should help you with installation and enabling full hardware support for touch pad and touch panel. 
 
