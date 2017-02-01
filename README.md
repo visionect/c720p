@@ -1,10 +1,14 @@
 Acer c720p + Ubuntu 14.04 guide
 ===============================
 
+Before following this guide:
+----------------------------
+
+**This guide now makes little sense to follow as Linux kernel above 3.17 supports all hardware features of C720P out of the box (verified). See first comments on RC1 release: https://plus.google.com/+JesseFleming1990/posts/D3uVNLUY7Ct to gain a bit of background.** 
+
 This guide has been created for owners of Acer C720(P) Chromebook that would like to replace ChromeOS with native Ubuntu 14.04. It should help you with installation and enabling full hardware support for touch pad and touch panel. 
 
 *DISCLAIMER: This guide has been built for internal use with a fresh 14.04 LTS 64bit Ubuntu and Acer C720P (with touchscreen). While we're [good developers](http://www.visionect.com), we are no Linux kernel developers, Ubuntu maintainers or Acer support line. This guide has been built using the STFW method ([risky](http://en.wiktionary.org/wiki/STFW)) and following this guide will obliterate ChromeOS and void your warranty (you will be opening your laptop). You need to have some computing experience - if you don't, find someone who does.*
-
 
 1. First step: 
 --------------
@@ -82,7 +86,7 @@ Reboot the laptop, pop in an Ubuntu bootable and install it. You will not have t
 
  A bunch of stuff we just did are plain ol' hacks. They are tied to the specific version of Kernel that we're currently using. We'd like to prevent auto-updates messing everything up, so we can use [the guide on askubuntu](http://askubuntu.com/questions/178324/how-to-skip-kernel-update) and lock the version by typing:
  ```
- echo $(dpkg -l "*$(uname -r)*" | grep image-3 | awk '{print $2}') hold | dpkg --set-selections
+ echo $(dpkg -l "*$(uname -r)*" | grep image-3 | awk '{print $2}') hold | sudo dpkg --set-selections
  ```
 
 3. Further reading
