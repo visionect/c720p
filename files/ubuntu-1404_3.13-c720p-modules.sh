@@ -1,4 +1,6 @@
 # FOR ACER C720P WITH TOUCHPANEL!
+# Based on ChrUbuntu - cros-haswell-modules.sh
+# https://97e83d70d72c338a5120d68abf78ce7c7e07d6e7.googledrive.com/host/0B0YvUuHHn3MndlNDbXhPRlB2eFE/cros-haswell-modules.sh
 # Create a temp directory for our work
 tempbuild=`mktemp -d`
 cd $tempbuild
